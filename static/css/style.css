@@ -10,7 +10,11 @@ body {
 	font-family: "Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "STHeiti";
 	background-color: #e2e2e2;
 	min-width: 900px;
-	background-image: url("/static/img/bg.jpg");
+	background-image: url("/static/img/bg.jpg") no-repeat center center fixed;
+	    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
 }
 
 a:link, a:visited, a:active {
