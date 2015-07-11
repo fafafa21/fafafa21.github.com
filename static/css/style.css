@@ -10,10 +10,10 @@ body {
 	font-family: "Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "STHeiti";
 	background-color: #e2e2e2;
 	min-width: 900px;
-	background-image:url("http://d.pcs.baidu.com/thumbnail/da02996a46a114035011952a01992cda?fid=3321929361-250528-562126672342621&time=1436583600&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-HDxLdSDjtG4qc4weB5i%2BDPb0RZw%3D&rt=sh&expires=2h&r=126834061&sharesign=unknown&size=c710_u500&quality=100"); /*url("/static/img/bg.jpg");*/
-filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale')";  
--moz-background-size:150% 100%;  
-    background-size:150% 100%;
+	background-image:url("/static/img/bg.jpg");
+	filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale')";  
+-moz-background-size:100% 120%;  
+    background-size:100% 120%;
 }
 
 a:link, a:visited, a:active {
