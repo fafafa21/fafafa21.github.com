@@ -9,12 +9,17 @@ body {
 	margin: 0px;
 	font-family: "Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "STHeiti";
 	background-color: #e2e2e2;
-	min-width: 900px;
-	background-image:url("http://ww4.sinaimg.cn/large/64da2528gw1etyquu0ddpj21hc0xcdr9.jpg"); /* url("/static/img/bg.jpg"); */
+	
+	/*min-width: 900px;
+	background-image:url("http://ww4.sinaimg.cn/large/64da2528gw1etyquu0ddpj21hc0xcdr9.jpg");  url("/static/img/bg.jpg"); 
 	filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale')";  
 -moz-background-size:100% 130%;  
-    background-size:100% 130%;
+    background-size:100% 130%; */
+    
 }
+#bg { position: fixed; top: 0; left: 0; }
+.bgwidth { width: 100%; }
+.bgheight { height: 100%; }
 
 a:link, a:visited, a:active {
 	color: #1c7fdb;
